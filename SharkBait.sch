@@ -763,18 +763,6 @@
 </polygon>
 <text x="-0.47" y="-1.24" size="0.8" layer="27" ratio="18" distance="15" align="center">&gt;VALUE</text>
 </package>
-<package name="SOD-323">
-<wire x1="-0.9" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
-<smd name="C" x="-1.15" y="0" dx="1" dy="0.8" layer="1" roundness="50"/>
-<smd name="A" x="1.15" y="0" dx="1" dy="0.8" layer="1" roundness="50"/>
-<text x="0.011" y="1.216" size="0.8" layer="25" ratio="18" align="center">&gt;NAME</text>
-<text x="-0.016" y="-1.297" size="0.8" layer="27" ratio="18" align="center">&gt;VALUE</text>
-<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.3" layer="21"/>
-<wire x1="-0.2" y1="-0.6" x2="-0.2" y2="0.6" width="0.3" layer="21"/>
-<wire x1="-0.4" y1="0.6" x2="-0.4" y2="-0.6" width="0.28" layer="21"/>
-<wire x1="0" y1="-0.6" x2="0" y2="0.6" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA2560">
@@ -978,20 +966,6 @@
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 </symbol>
-<symbol name="DIODE">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA2560">
@@ -1166,22 +1140,6 @@
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIODE">
-<gates>
-<gate name="G$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12340,72 +12298,6 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="C_L78M05CDT">
-<packages>
-<package name="TO225P972X240-3N">
-<wire x1="-1.8034" y1="-3.5052" x2="-2.6924" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="-2.6924" y1="-3.5052" x2="-2.6924" y2="-6.604" width="0.1524" layer="51"/>
-<wire x1="-2.6924" y1="-6.604" x2="-1.8034" y2="-6.604" width="0.1524" layer="51"/>
-<wire x1="-1.8034" y1="-6.604" x2="-1.8034" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="2.6924" y1="-3.5052" x2="1.8034" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="-3.5052" x2="1.8034" y2="-6.604" width="0.1524" layer="51"/>
-<wire x1="1.8034" y1="-6.604" x2="2.6924" y2="-6.604" width="0.1524" layer="51"/>
-<wire x1="2.6924" y1="-6.604" x2="2.6924" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="-3.5052" x2="-3.302" y2="-8.6106" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="-8.6106" x2="3.302" y2="-8.6106" width="0.1524" layer="51"/>
-<wire x1="3.302" y1="-8.6106" x2="3.302" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="-3.5052" x2="3.302" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="3.302" y1="-3.5052" x2="3.302" y2="3.5052" width="0.1524" layer="51"/>
-<wire x1="3.302" y1="3.5052" x2="-3.302" y2="3.5052" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="3.5052" x2="-3.302" y2="-3.5052" width="0.1524" layer="51"/>
-<text x="-4.576590625" y="4.296909375" size="2.084890625" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.59203125" y="-9.277690625" size="2.0843" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="1" x="-2.2606" y="-6.2992" dx="0.9398" dy="1.3208" layer="1"/>
-<smd name="2" x="0" y="0.1524" dx="6.604" dy="7.3152" layer="1"/>
-<smd name="3" x="2.2606" y="-6.2992" dx="0.9398" dy="1.3208" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="L78M05CDT">
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
-<text x="-4.726059375" y="9.1218" size="2.08353125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.369759375" y="-14.9386" size="2.08683125" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="IN" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pas"/>
-<pin name="OUT" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="L78M05CDT" prefix="Q">
-<description>Positive voltage regulators</description>
-<gates>
-<gate name="A" symbol="L78M05CDT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO225P972X240-3N">
-<connects>
-<connect gate="A" pin="GND" pad="3"/>
-<connect gate="A" pin="IN" pad="1"/>
-<connect gate="A" pin="OUT" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" L78M Series 500 mA 5 V Three Terminal Positive Voltage LDO Regulator - TO-252 "/>
-<attribute name="MF" value="STMicroelectronics"/>
-<attribute name="MP" value="L78M05CDT-TR"/>
-<attribute name="PACKAGE" value="TO-252-3 STMicroelectronics"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="C_SIM7000">
 <packages>
 <package name="SIM_7000">
@@ -12462,111 +12354,6 @@ Metric Code Size 5664</description>
 <connect gate="G$1" pin="SL" pad="SLEEP"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
 <connect gate="G$1" pin="V" pad="5V"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="C_WEMOS_SD_D1_MINI">
-<packages>
-<package name="WEMOS_SD_D1_MINI">
-<wire x1="2" y1="0" x2="26" y2="0" width="0.127" layer="21"/>
-<wire x1="26" y1="0" x2="26" y2="29" width="0.127" layer="21"/>
-<wire x1="26" y1="29" x2="0" y2="29" width="0.127" layer="21"/>
-<wire x1="0" y1="29" x2="0" y2="8" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="2" y2="7" width="0.127" layer="21"/>
-<wire x1="2" y1="7" x2="0" y2="8" width="0.127" layer="21"/>
-<pad name="NC4" x="24.5" y="27.5" drill="0.9"/>
-<pad name="NC5" x="24.5" y="25" drill="0.9"/>
-<pad name="NC6" x="24.5" y="22.5" drill="0.9"/>
-<pad name="NC7" x="24.5" y="20" drill="0.9"/>
-<pad name="NC8" x="24.5" y="17.5" drill="0.9"/>
-<pad name="NC9" x="24.5" y="15" drill="0.9"/>
-<pad name="GND" x="24.5" y="12.5" drill="0.9"/>
-<pad name="NC10" x="24.5" y="10" drill="0.9"/>
-<pad name="NC1" x="1.5" y="27.5" drill="0.9"/>
-<pad name="NC2" x="1.5" y="25" drill="0.9"/>
-<pad name="NC3" x="1.5" y="22.5" drill="0.9"/>
-<pad name="CLK" x="1.5" y="20" drill="0.9"/>
-<pad name="MOSI" x="1.5" y="17.5" drill="0.9"/>
-<pad name="MISO" x="1.5" y="15" drill="0.9"/>
-<pad name="CS" x="1.5" y="12.5" drill="0.9"/>
-<pad name="3V3" x="1.5" y="10" drill="0.9"/>
-<text x="5" y="3.1" size="1.4224" layer="21">Wemos SD shield</text>
-<text x="8.6" y="5.4" size="1.4224" layer="21">3v3 Bases</text>
-<text x="3.2" y="27" size="1.016" layer="21">NC1</text>
-<text x="3.2" y="24.5" size="1.016" layer="21">NC2</text>
-<text x="3.2" y="22" size="1.016" layer="21">NC3</text>
-<text x="3.2" y="19.5" size="1.016" layer="21">CLK</text>
-<text x="3.2" y="17" size="1.016" layer="21">MISO</text>
-<text x="3.2" y="14.5" size="1.016" layer="21">MOSI</text>
-<text x="3.2" y="12" size="1.016" layer="21">CS</text>
-<text x="3.2" y="9.5" size="1.016" layer="21">3V3</text>
-<text x="20.1" y="27" size="1.016" layer="21">NC4</text>
-<text x="20.1" y="24.5" size="1.016" layer="21">NC5</text>
-<text x="20.1" y="22" size="1.016" layer="21">NC6</text>
-<text x="20.1" y="19.5" size="1.016" layer="21">NC7</text>
-<text x="20.1" y="17" size="1.016" layer="21">NC8</text>
-<text x="20.1" y="14.5" size="1.016" layer="21">NC9</text>
-<text x="19.7" y="12" size="1.016" layer="21">GND</text>
-<text x="19.5" y="9.5" size="1.016" layer="21">NC10</text>
-<circle x="7.4" y="12.6" radius="0.2" width="0.127" layer="21"/>
-<circle x="7.4" y="10.2" radius="0.2" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WEMOS_SD_D1_MINI">
-<wire x1="-22.86" y1="7.62" x2="-22.86" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-7.62" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="-22.86" y2="7.62" width="0.254" layer="94"/>
-<pin name="NC4" x="-17.78" y="12.7" length="middle" rot="R270"/>
-<pin name="NC5" x="-12.7" y="12.7" length="middle" rot="R270"/>
-<pin name="NC6" x="-7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="NC7" x="-2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="NC8" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="NC9" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="GND" x="12.7" y="12.7" length="middle" rot="R270"/>
-<pin name="NC10" x="17.78" y="12.7" length="middle" rot="R270"/>
-<pin name="3V3" x="17.78" y="-12.7" length="middle" rot="R90"/>
-<pin name="CS" x="12.7" y="-12.7" length="middle" rot="R90"/>
-<pin name="MOSI" x="7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="MISO" x="2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="CLK" x="-2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="NC3" x="-7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="NC2" x="-12.7" y="-12.7" length="middle" rot="R90"/>
-<pin name="NC1" x="-17.78" y="-12.7" length="middle" rot="R90"/>
-<text x="-27.94" y="15.24" size="1.4224" layer="95">WEMOS SD D1 MINI</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WEMOS_SD_D1_MINI">
-<gates>
-<gate name="G$1" symbol="WEMOS_SD_D1_MINI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WEMOS_SD_D1_MINI">
-<connects>
-<connect gate="G$1" pin="3V3" pad="3V3"/>
-<connect gate="G$1" pin="CLK" pad="CLK"/>
-<connect gate="G$1" pin="CS" pad="CS"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="MISO" pad="MISO"/>
-<connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="NC1" pad="NC1"/>
-<connect gate="G$1" pin="NC10" pad="NC10"/>
-<connect gate="G$1" pin="NC2" pad="NC2"/>
-<connect gate="G$1" pin="NC3" pad="NC3"/>
-<connect gate="G$1" pin="NC4" pad="NC4"/>
-<connect gate="G$1" pin="NC5" pad="NC5"/>
-<connect gate="G$1" pin="NC6" pad="NC6"/>
-<connect gate="G$1" pin="NC7" pad="NC7"/>
-<connect gate="G$1" pin="NC8" pad="NC8"/>
-<connect gate="G$1" pin="NC9" pad="NC9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12804,6 +12591,177 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </deviceset>
 </devicesets>
 </library>
+<library name="C_WEMOS_SD_D1_MINI">
+<packages>
+<package name="WEMOS_SD_D1_MINI">
+<wire x1="2" y1="0" x2="26" y2="0" width="0.127" layer="21"/>
+<wire x1="26" y1="0" x2="26" y2="29" width="0.127" layer="21"/>
+<wire x1="26" y1="29" x2="0" y2="29" width="0.127" layer="21"/>
+<wire x1="0" y1="29" x2="0" y2="8" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="2" y2="7" width="0.127" layer="21"/>
+<wire x1="2" y1="7" x2="0" y2="8" width="0.127" layer="21"/>
+<pad name="NC4" x="24.5" y="27.5" drill="0.9"/>
+<pad name="NC5" x="24.5" y="25" drill="0.9"/>
+<pad name="NC6" x="24.5" y="22.5" drill="0.9"/>
+<pad name="NC7" x="24.5" y="20" drill="0.9"/>
+<pad name="NC8" x="24.5" y="17.5" drill="0.9"/>
+<pad name="NC9" x="24.5" y="15" drill="0.9"/>
+<pad name="GND" x="24.5" y="12.5" drill="0.9"/>
+<pad name="NC10" x="24.5" y="10" drill="0.9"/>
+<pad name="NC1" x="1.5" y="27.5" drill="0.9"/>
+<pad name="NC2" x="1.5" y="25" drill="0.9"/>
+<pad name="NC3" x="1.5" y="22.5" drill="0.9"/>
+<pad name="CLK" x="1.5" y="20" drill="0.9"/>
+<pad name="MISO" x="1.5" y="17.5" drill="0.9"/>
+<pad name="MOSI" x="1.5" y="15" drill="0.9"/>
+<pad name="CS" x="1.5" y="12.5" drill="0.9"/>
+<pad name="3V3" x="1.5" y="10" drill="0.9"/>
+<text x="5" y="3.1" size="1.4224" layer="21">Wemos SD shield</text>
+<text x="8.6" y="5.4" size="1.4224" layer="21">3v3 Bases</text>
+<text x="3.2" y="27" size="1.016" layer="21">NC1</text>
+<text x="3.2" y="24.5" size="1.016" layer="21">NC2</text>
+<text x="3.2" y="22" size="1.016" layer="21">NC3</text>
+<text x="3.2" y="19.5" size="1.016" layer="21">CLK</text>
+<text x="3.2" y="17" size="1.016" layer="21">MISO</text>
+<text x="3.2" y="14.5" size="1.016" layer="21">MOSI</text>
+<text x="3.2" y="12" size="1.016" layer="21">CS</text>
+<text x="3.2" y="9.5" size="1.016" layer="21">3V3</text>
+<text x="20.1" y="27" size="1.016" layer="21">NC4</text>
+<text x="20.1" y="24.5" size="1.016" layer="21">NC5</text>
+<text x="20.1" y="22" size="1.016" layer="21">NC6</text>
+<text x="20.1" y="19.5" size="1.016" layer="21">NC7</text>
+<text x="20.1" y="17" size="1.016" layer="21">NC8</text>
+<text x="20.1" y="14.5" size="1.016" layer="21">NC9</text>
+<text x="19.7" y="12" size="1.016" layer="21">GND</text>
+<text x="19.5" y="9.5" size="1.016" layer="21">NC10</text>
+<circle x="7.4" y="12.6" radius="0.2" width="0.127" layer="21"/>
+<circle x="7.4" y="10.2" radius="0.2" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WEMOS_SD_D1_MINI">
+<wire x1="-22.86" y1="7.62" x2="-22.86" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-7.62" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="-22.86" y2="7.62" width="0.254" layer="94"/>
+<pin name="NC4" x="-17.78" y="12.7" length="middle" rot="R270"/>
+<pin name="NC5" x="-12.7" y="12.7" length="middle" rot="R270"/>
+<pin name="NC6" x="-7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="NC7" x="-2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="NC8" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="NC9" x="7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="GND" x="12.7" y="12.7" length="middle" rot="R270"/>
+<pin name="NC10" x="17.78" y="12.7" length="middle" rot="R270"/>
+<pin name="3V3" x="17.78" y="-12.7" length="middle" rot="R90"/>
+<pin name="CS" x="12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="MOSI" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="MISO" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="CLK" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="NC3" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="NC2" x="-12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="NC1" x="-17.78" y="-12.7" length="middle" rot="R90"/>
+<text x="-27.94" y="15.24" size="1.4224" layer="95">WEMOS SD D1 MINI</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WEMOS_SD_D1_MINI">
+<gates>
+<gate name="G$1" symbol="WEMOS_SD_D1_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WEMOS_SD_D1_MINI">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="NC1" pad="NC1"/>
+<connect gate="G$1" pin="NC10" pad="NC10"/>
+<connect gate="G$1" pin="NC2" pad="NC2"/>
+<connect gate="G$1" pin="NC3" pad="NC3"/>
+<connect gate="G$1" pin="NC4" pad="NC4"/>
+<connect gate="G$1" pin="NC5" pad="NC5"/>
+<connect gate="G$1" pin="NC6" pad="NC6"/>
+<connect gate="G$1" pin="NC7" pad="NC7"/>
+<connect gate="G$1" pin="NC8" pad="NC8"/>
+<connect gate="G$1" pin="NC9" pad="NC9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="C_L78M05CDT">
+<packages>
+<package name="TO225P972X240-3N">
+<wire x1="-1.8034" y1="-3.5052" x2="-2.6924" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="-2.6924" y1="-3.5052" x2="-2.6924" y2="-6.604" width="0.1524" layer="51"/>
+<wire x1="-2.6924" y1="-6.604" x2="-1.8034" y2="-6.604" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-6.604" x2="-1.8034" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="2.6924" y1="-3.5052" x2="1.8034" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-3.5052" x2="1.8034" y2="-6.604" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-6.604" x2="2.6924" y2="-6.604" width="0.1524" layer="51"/>
+<wire x1="2.6924" y1="-6.604" x2="2.6924" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="-3.5052" x2="-3.302" y2="-8.6106" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="-8.6106" x2="3.302" y2="-8.6106" width="0.1524" layer="51"/>
+<wire x1="3.302" y1="-8.6106" x2="3.302" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="-3.5052" x2="3.302" y2="-3.5052" width="0.1524" layer="51"/>
+<wire x1="3.302" y1="-3.5052" x2="3.302" y2="3.5052" width="0.1524" layer="51"/>
+<wire x1="3.302" y1="3.5052" x2="-3.302" y2="3.5052" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="3.5052" x2="-3.302" y2="-3.5052" width="0.1524" layer="51"/>
+<text x="-4.576590625" y="4.296909375" size="2.084890625" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.59203125" y="-9.277690625" size="2.0843" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="IN" x="-2.2606" y="-6.2992" dx="0.9398" dy="1.3208" layer="1"/>
+<smd name="GND" x="0" y="0.1524" dx="6.604" dy="7.3152" layer="1"/>
+<smd name="OUT" x="2.2606" y="-6.2992" dx="0.9398" dy="1.3208" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="L78M05CDT">
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
+<text x="-4.726059375" y="9.1218" size="2.08353125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.369759375" y="-14.9386" size="2.08683125" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="IN" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="OUT" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="L78M05CDT" prefix="Q">
+<description>Positive voltage regulators</description>
+<gates>
+<gate name="A" symbol="L78M05CDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO225P972X240-3N">
+<connects>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="IN" pad="IN"/>
+<connect gate="A" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" L78M Series 500 mA 5 V Three Terminal Positive Voltage LDO Regulator - TO-252 "/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MP" value="L78M05CDT-TR"/>
+<attribute name="PACKAGE" value="TO-252-3 STMicroelectronics"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12825,7 +12783,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="C2" library="Fuzzy" deviceset="CAPACITOR-SMD-0805" device="" value=" .1uF"/>
 <part name="C3" library="Fuzzy" deviceset="CAPACITOR-SMD-0805" device="" value=".1uF"/>
 <part name="C4" library="Fuzzy" deviceset="CAPACITOR-SMD-0805" device="" value=".1uF"/>
-<part name="SCHOTTKY" library="Fuzzy" deviceset="DIODE" device="" value="DIODE"/>
 <part name="C6" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
 <part name="C11" library="rcl" deviceset="CPOL-US" device="D" value="100uF"/>
 <part name="HT733" library="C_HT7333_SOT89" deviceset="HT7333" device=""/>
@@ -12842,9 +12799,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="R6" library="rc-master-smd" deviceset="R_" device="0805"/>
 <part name="GND1" library="SparkFun-3-2-07" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="Q1" library="C_L78M05CDT" deviceset="L78M05CDT" device=""/>
 <part name="U$2" library="C_SIM7000" deviceset="SIM7000" device=""/>
-<part name="U$1" library="C_WEMOS_SD_D1_MINI" deviceset="WEMOS_SD_D1_MINI" device=""/>
 <part name="R11" library="rc-master-smd" deviceset="R_" device="0805" value="1K8"/>
 <part name="R12" library="rc-master-smd" deviceset="R_" device="0805" value="3K3"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -12857,10 +12812,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <part name="R10" library="rc-master-smd" deviceset="R_" device="0805" value="1K8"/>
 <part name="R13" library="rc-master-smd" deviceset="R_" device="0805" value="3K3"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="srg" deviceset="JST-PH_5-PIN_HEADER" device=""/>
-<part name="U$5" library="srg" deviceset="JST-PH_3-PIN_HEADER" device=""/>
-<part name="U$6" library="srg" deviceset="JST-PH_4-PIN_HEADER" device=""/>
-<part name="U$4" library="srg" deviceset="JST-PH_2-PIN_HEADER" device=""/>
+<part name="FTDI" library="srg" deviceset="JST-PH_5-PIN_HEADER" device=""/>
+<part name="SENSOR0" library="srg" deviceset="JST-PH_3-PIN_HEADER" device=""/>
+<part name="SENSOR1" library="srg" deviceset="JST-PH_4-PIN_HEADER" device=""/>
+<part name="BAT" library="srg" deviceset="JST-PH_2-PIN_HEADER" device=""/>
+<part name="U$1" library="C_WEMOS_SD_D1_MINI" deviceset="WEMOS_SD_D1_MINI" device=""/>
+<part name="Q1" library="C_L78M05CDT" deviceset="L78M05CDT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12869,7 +12826,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <text x="38.1" y="198.12" size="2" layer="98" ratio="15">Bypass Capacitors</text>
 <text x="38.1" y="238.76" size="2" layer="98" ratio="15">USB to Serial DTR</text>
 <text x="41.91" y="176.53" size="1.778" layer="96">.1uF</text>
-<text x="243.84" y="200.66" size="1.778" layer="98">Uploader</text>
+<text x="241.3" y="198.12" size="1.778" layer="98">Uploader</text>
 <text x="353.06" y="93.98" size="1.778" layer="98">RTC DS3231</text>
 <wire x1="325.12" y1="35.56" x2="325.12" y2="114.3" width="0.1524" layer="94" style="longdash"/>
 <wire x1="325.12" y1="114.3" x2="426.72" y2="114.3" width="0.1524" layer="94" style="longdash"/>
@@ -12886,6 +12843,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="223.52" y1="218.44" x2="325.12" y2="218.44" width="0.1524" layer="94" style="longdash"/>
 <text x="248.92" y="66.04" size="1.778" layer="98">SD Card Modul</text>
 <text x="251.46" y="109.22" size="2.54" layer="94">SD CARD MODUL</text>
+<text x="422.91" y="10.922" size="3.81" layer="94">3</text>
 </plain>
 <instances>
 <instance part="ATMEGA2560" gate="G$1" x="144.78" y="157.48"/>
@@ -12899,9 +12857,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="C2" gate="G$1" x="50.8" y="180.34"/>
 <instance part="C3" gate="G$1" x="60.96" y="180.34"/>
 <instance part="C4" gate="G$1" x="55.88" y="220.98"/>
-<instance part="SCHOTTKY" gate="G$1" x="50.8" y="96.52"/>
 <instance part="C6" gate="G$1" x="345.44" y="185.42"/>
-<instance part="C11" gate="G$1" x="396.24" y="185.42"/>
+<instance part="C11" gate="G$1" x="358.14" y="185.42"/>
 <instance part="HT733" gate="G$1" x="375.92" y="139.7"/>
 <instance part="C5" gate="G$1" x="358.14" y="132.08" rot="R90"/>
 <instance part="C7" gate="G$1" x="396.24" y="132.08" rot="R90"/>
@@ -12917,9 +12874,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="GND1" gate="1" x="375.92" y="121.92"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
-<instance part="Q1" gate="A" x="373.38" y="195.58"/>
 <instance part="U$2" gate="G$1" x="251.46" y="154.94"/>
-<instance part="U$1" gate="G$1" x="259.08" y="40.64" rot="R90"/>
 <instance part="R11" gate="G$1" x="292.1" y="25.4" rot="R90"/>
 <instance part="R12" gate="G$1" x="297.18" y="33.02" rot="R180"/>
 <instance part="GND6" gate="1" x="309.88" y="33.02" rot="R90"/>
@@ -12932,10 +12887,12 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <instance part="R10" gate="G$1" x="304.8" y="50.8" rot="R90"/>
 <instance part="R13" gate="G$1" x="309.88" y="58.42" rot="R180"/>
 <instance part="GND4" gate="1" x="317.5" y="58.42" rot="R90"/>
-<instance part="U$3" gate="G$1" x="246.38" y="185.42" rot="MR0"/>
-<instance part="U$5" gate="G$1" x="284.48" y="162.56" rot="MR0"/>
-<instance part="U$6" gate="G$1" x="281.94" y="187.96" rot="MR0"/>
-<instance part="U$4" gate="G$1" x="218.44" y="210.82"/>
+<instance part="FTDI" gate="G$1" x="246.38" y="185.42" rot="MR0"/>
+<instance part="SENSOR0" gate="G$1" x="284.48" y="162.56" rot="MR0"/>
+<instance part="SENSOR1" gate="G$1" x="281.94" y="187.96" rot="MR0"/>
+<instance part="BAT" gate="G$1" x="246.38" y="208.28" rot="R180"/>
+<instance part="U$1" gate="G$1" x="259.08" y="40.64" rot="R90"/>
+<instance part="Q1" gate="A" x="375.92" y="203.2"/>
 </instances>
 <busses>
 </busses>
@@ -13021,15 +12978,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="40.64" y="228.6"/>
 </segment>
 <segment>
-<pinref part="SCHOTTKY" gate="G$1" pin="C"/>
-<label x="71.12" y="96.52" size="1.778" layer="95"/>
-<junction x="53.34" y="96.52"/>
-<wire x1="53.34" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="292.1" y="190.5" size="1.778" layer="95" xref="yes"/>
 <wire x1="287.02" y1="190.5" x2="289.56" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="SENSOR1" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13038,13 +12989,16 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="256.54" y="142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="195.58" x2="396.24" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="187.96" x2="398.78" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="187.96" x2="363.22" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="+"/>
-<junction x="396.24" y="187.96"/>
+<label x="363.22" y="187.96" size="1.778" layer="95" xref="yes"/>
 <pinref part="Q1" gate="A" pin="OUT"/>
-<wire x1="391.16" y1="195.58" x2="396.24" y2="195.58" width="0.1524" layer="91"/>
-<label x="398.78" y="190.5" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="358.14" y1="198.12" x2="358.14" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="182.88" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
+<label x="256.54" y="182.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="FTDI" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13109,16 +13063,15 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="180.34" x2="375.92" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="180.34" x2="396.24" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="180.34" x2="358.14" y2="180.34" width="0.1524" layer="91"/>
 <junction x="375.92" y="180.34"/>
 <pinref part="C11" gate="G$1" pin="-"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="Q1" gate="A" pin="GND"/>
-<wire x1="355.6" y1="190.5" x2="355.6" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="182.88" x2="375.92" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="182.88" x2="375.92" y2="180.34" width="0.1524" layer="91"/>
 <label x="345.44" y="180.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <junction x="345.44" y="180.34"/>
+<pinref part="Q1" gate="A" pin="GND"/>
+<wire x1="393.7" y1="203.2" x2="393.7" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="180.34" x2="375.92" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -13128,7 +13081,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <wire x1="287.02" y1="160.02" x2="289.56" y2="160.02" width="0.1524" layer="91"/>
 <label x="292.1" y="160.02" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="3"/>
+<pinref part="SENSOR0" gate="G$1" pin="3"/>
 <wire x1="289.56" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
 <junction x="289.56" y="160.02"/>
 </segment>
@@ -13187,19 +13140,19 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="5"/>
+<pinref part="FTDI" gate="G$1" pin="5"/>
 <wire x1="254" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 <label x="256.54" y="180.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="4"/>
+<pinref part="SENSOR1" gate="G$1" pin="4"/>
 <wire x1="289.56" y1="182.88" x2="292.1" y2="182.88" width="0.1524" layer="91"/>
 <label x="292.1" y="182.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="210.82" x2="208.28" y2="210.82" width="0.1524" layer="91"/>
-<label x="208.28" y="210.82" size="1.778" layer="95" rot="R180"/>
+<pinref part="BAT" gate="G$1" pin="1"/>
+<wire x1="254" y1="205.74" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="259.08" y="205.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -13221,14 +13174,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="50.8" y="228.6"/>
 </segment>
 </net>
-<net name="13" class="0">
-<segment>
-<pinref part="ORANGE" gate="G$1" pin="A"/>
-<wire x1="63.5" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="68.58" y="149.86" size="1.778" layer="95" xref="yes"/>
-<junction x="63.5" y="149.86"/>
-</segment>
-</net>
 <net name="DTR" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -13239,7 +13184,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <wire x1="254" y1="190.5" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
 <label x="256.54" y="190.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="FTDI" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -13270,7 +13215,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <wire x1="287.02" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="292.1" y="162.56" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="SENSOR0" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="162.56" x2="292.1" y2="162.56" width="0.1524" layer="91"/>
 <junction x="289.56" y="162.56"/>
 </segment>
@@ -13283,7 +13228,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="180.34" y="99.06"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="3"/>
+<pinref part="SENSOR1" gate="G$1" pin="3"/>
 <wire x1="289.56" y1="185.42" x2="292.1" y2="185.42" width="0.1524" layer="91"/>
 <label x="292.1" y="185.42" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13298,7 +13243,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <wire x1="254" y1="185.42" x2="256.54" y2="185.42" width="0.1524" layer="91"/>
 <label x="256.54" y="185.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="3"/>
+<pinref part="FTDI" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="TX0" class="0">
@@ -13311,7 +13256,7 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <segment>
 <wire x1="254" y1="187.96" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
 <label x="256.54" y="187.96" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="FTDI" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -13399,8 +13344,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="292.1" y1="38.1" x2="292.1" y2="33.02" width="0.1524" layer="91"/>
 <junction x="292.1" y="33.02"/>
 <wire x1="292.1" y1="33.02" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CLK"/>
 <wire x1="271.78" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CLK"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -13432,13 +13377,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="55.88" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="58.42" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="43.18" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
 <junction x="304.8" y="58.42"/>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
-<wire x1="271.78" y1="48.26" x2="294.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="48.26" x2="294.64" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="43.18" x2="297.18" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="58.42" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="58.42" x2="284.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MISO"/>
+<wire x1="284.48" y1="43.18" x2="271.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -13446,24 +13389,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="304.8" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VCC" class="0">
-<segment>
-<wire x1="254" y1="182.88" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
-<label x="256.54" y="182.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<pinref part="SCHOTTKY" gate="G$1" pin="A"/>
-<label x="38.1" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<junction x="48.26" y="96.52"/>
-<wire x1="48.26" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="D4" class="0">
 <segment>
 <wire x1="287.02" y1="165.1" x2="289.56" y2="165.1" width="0.1524" layer="91"/>
 <label x="292.1" y="165.1" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="SENSOR0" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <junction x="289.56" y="165.1"/>
 </segment>
@@ -13511,9 +13441,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="398.78" y="139.7" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
 <wire x1="271.78" y1="58.42" x2="271.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="271.78" y="63.5" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="3V3"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -13543,17 +13473,17 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="A" pin="IN"/>
-<wire x1="355.6" y1="195.58" x2="345.44" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="195.58" x2="345.44" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="187.96" x2="340.36" y2="187.96" width="0.1524" layer="91"/>
 <label x="340.36" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 <junction x="345.44" y="187.96"/>
+<pinref part="Q1" gate="A" pin="IN"/>
+<wire x1="345.44" y1="187.96" x2="345.44" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="203.2" x2="358.14" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="213.36" x2="208.28" y2="213.36" width="0.1524" layer="91"/>
-<label x="208.28" y="213.36" size="1.778" layer="95" rot="R180"/>
+<pinref part="BAT" gate="G$1" pin="2"/>
+<wire x1="254" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
+<label x="259.08" y="208.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13599,20 +13529,8 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="276.86" y1="53.34" x2="276.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <junction x="284.48" y="88.9"/>
-<pinref part="U$1" gate="G$1" pin="CS"/>
 <wire x1="271.78" y1="53.34" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="76.2" x2="294.64" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="81.28" x2="294.64" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="43.18" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
-<junction x="294.64" y="81.28"/>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
-<wire x1="271.78" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CS"/>
 </segment>
 </net>
 <net name="D13" class="0">
@@ -13622,10 +13540,16 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="ATMEGA2560" gate="G$1" pin="(OC0A/OC1C/PCINT7)PB7"/>
 <junction x="180.34" y="208.28"/>
 </segment>
+<segment>
+<pinref part="ORANGE" gate="G$1" pin="A"/>
+<wire x1="63.5" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<label x="68.58" y="149.86" size="1.778" layer="95" xref="yes"/>
+<junction x="63.5" y="149.86"/>
+</segment>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="2"/>
+<pinref part="SENSOR1" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="187.96" x2="292.1" y2="187.96" width="0.1524" layer="91"/>
 <label x="292.1" y="187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13634,6 +13558,17 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="109.22" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <label x="99.06" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 <junction x="109.22" y="91.44"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="76.2" x2="294.64" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="81.28" x2="279.4" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<wire x1="279.4" y1="48.26" x2="271.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
